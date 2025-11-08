@@ -29,7 +29,7 @@ button{
   border-radius: 3rem;
   font-size: 2rem;
   font-weight: 500;
-  transition: all ease-in 0.5s;
+  transition: all ease-in 0.1s;
 }
 .value:hover {
   background-color: white;
