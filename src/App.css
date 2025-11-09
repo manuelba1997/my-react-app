@@ -1,4 +1,4 @@
-main {
+/*main {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -7,15 +7,17 @@ main {
   align-items: center;
   background-color: rgb(108, 184, 108);
   color: white;
-}
+}*/
 
 .title {
   font-size: 2rem;
 }
 
-button{
-  background: transparent;
-  border: 2px solid white;
+button {
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
   font: inherit;
   cursor: pointer;
 
@@ -79,4 +81,45 @@ button{
    position: relative;
   top: 40px;
   right:30px;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #FAFAF8;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+header > img {
+    width: 50px;
+}
+
+header > h1 {
+    font-weight: 400;
+    color: black;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+.input-box {
+  text-align: center;
+  font-size: medium;
+  width: 15rem;
+  height: 3.4rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid rgb(207, 205, 205);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
 }
